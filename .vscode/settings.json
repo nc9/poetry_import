@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/__pycache__/": true,
+    ".venv": true
+  },
+  "python.pythonPath": ".venv/bin/python",
+  "python.linting.pylintPath": "pylint",
+  "python.formatting.provider": "black",
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "python.linting.pylintEnabled": true
+}
